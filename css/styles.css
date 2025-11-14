@@ -1,0 +1,100 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Tektur", Arial, Helvetica, sans-serif;
+    background-color: #def3ff;
+}
+
+h1 {
+    font-family: "Orbitron", Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+
+h2 {
+    font-family: "Orbitron", Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    margin: 2px;
+}
+
+p {
+    padding: 1rem;
+}
+
+.pImg {
+    clip-path: polygon(0 0,calc(100% - 80px) 0,100% 80px,100% 100%,0 100%);
+    padding: 1rem;
+    margin: 3px;
+}
+
+footer {
+    padding: 1rem;
+    margin: 3px;
+}
+
+/* Remove bullet points and default styling. */
+
+.nav-menu {
+    list-style: none;
+}
+
+/* Remove underlines from links */
+
+.nav-menu a {
+    text-decoration: none;
+    color:white;
+}
+
+/* Make the navbar a flex container with a bg color */
+
+nav {
+    background-color: #00304c;
+    padding: 1rem;
+}
+
+.nav-menu {
+    display: flex; /* Activates flexbox */
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Style the links */
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    background-color: #004b76;
+    padding: 10px 20px;
+    display: block;
+    clip-path: polygon(0 0,calc(100% - 14px) 0,100% 14px,100% 100%,0 100%);
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    background-color: #a91500;
+}
+
+/* New Container to hold logo and menu items */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between; /* logo will go all the way to the left and the menu to the right */
+    align-items: center;
+    background-color: #00304c;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+.div logo {
+
+}
